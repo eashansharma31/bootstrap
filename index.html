@@ -1,70 +1,185 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mywebsite</title>
+<HTMLlang="en">
+<HEAD>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PORTFOLIO</title>
+<style>
+body {
+     
+     
+     
+}
+div
+  {
+      
+   background-color: lightblue;   
+   color: black;
+   text-align: left;
+   width: 700px;
+   border: 7px solid yellow;
+   padding: 50px;
+   margin: auto;
+   outline: 5px solid green;
+}
+
+.a{
+   background-color: lightblue;   
+   color: black;
+   text-align: left;
+   font-size:20px;
+   
+   border: 2px solid black;
+   padding: 5px;
+   margin: auto;
+   
+}
+
+.img{
+  border: 4px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  animation: mymove 5s;
+} 
+
+ 
+.img:hover {background-color:black;}
+ul {
+  list-style:  square url("bullet.gif");
+  overflow: visible;
+}
+@keyframes mymove {
+  0%   {background-color:red;left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue;left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red;left:0px; top:0px;}
+}
+h1 {
+  
+   
+   width: 300px;
+   border: 7px solid yellow;
+   padding: 10px;
+   margin: auto;
+   outline: 5px solid green;
+   color:black;
+   text-align: center;
+   text-shadow: 2px 2px white;
+}
+h2 {
+  
+   background-color:lightblue;
+   padding: 10px;
+   margin: auto;
+   color:black;
+   text-align: center;
+   text-shadow: 2px 2px white;
+}
+
+
+p {
+  color: black;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:{background-color: white;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+
 <!--Bootstrap css file-->
 <link rel="stylesheet" href="./css/bootstrap.min.css">
 
 <!--custom Css file-->
 <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
- <!--Start header area-->
- <header class="header-area">
-     <div class="mainmenu">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-              <a class="navbar-brand" href="#"><img src="./img/es.png" alt="logo"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav"></div>
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link " aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://eashansharma31.github.io/webpage/">Portfolio</a>
-                  </li>
-                  
-                </ul>
-              
-            </div>
-          </nav>
-         
-     </div>
- </header>
- <!--End header area-->
-    <div></div>
-    
-   <!--Start main Area-->
-   <main class="site-main"></main>
-   <!--Start banner Area-->
-   <section class="site-banner">
-       <div class="container">
-           <div class="row">
-               <div class="col-lg-6 col-md-12 site-title">
-                   <h1 class="title-text text-uppercase">I am Eashan</h1>
-                   <h4 class="title-text text-uppercase">Software engineer</h4>
-                </div>
-           </div>
-       </div>
-       <div class="col-lg-6 col-md-12">
-           <img src="./img/code.jpg" alt="loading" class="img-fluid"><Br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <h3>About Me<br><p class="p1"><b>
-            I am a student currently pursuing b.tech cse from 
-            manav rachna international institute of research and studies
-        and my aim is to work in a big Mnc like google or amazon</b>
-        </p></h3>
-        </div>
-   </section> 
-   <!--End main Area--> 
-    <!--Jquery file-->
-    <script scr="./js/jquery.3.4.1.js"></script>
-    
-    <!--Bootstrap js file-->
-<script src="./js/bootstrap.min.js"></script>
 
-</body>
-</html>
+</HEAD>
+
+
+<BODY>
+
+
+ <a class="a" href="D:\Portfolio\index.html">Home</a>
+
+<h1>My Portfolio</h1><br>
+
+<div>
+
+
+<img src="hi.jpg" class="img">
+
+
+<h2>
+
+<B>EASHAN SHARMA</B><br>
+
+
+<B>9548498542</B><br>
+
+
+<B>eashansharma31@gmail.com</B><br></h2>
+
+<p><B>EDUCATION</B><br>
+
+<TABLE id="customers">
+
+<TR><TH>STANDARD</TH><TH>SCHOOL</TH><TH>BOARD</TH><TH>PERCENTAGE</TH></TR>
+
+<TR><TD>X</TD> <TD>THE AARYANS</TD> <TD>CBSE</TD> <TD>10 CGPA</TD></TR>
+
+<TR><TD>XII</TD> <TD>THE AARYANS</TD> <TD>CBSE</TD> <TD>91%</TD></TR>
+
+</TABLE><br>
+
+<B>LANGUAGES</B>
+
+<OL><LI>ENGLISH</LI> <LI>HINDI</LI> <LI>SPANISH</LI></OL>
+
+<B>INTERESTS</B>
+
+<UL><LI>CODING</LI> <LI>MOVIES,SERIES AND ANIME</LI> <LI>TABLE TENNIS AND SQUASH</LI></UL>
+
+<B>CAREER OBJECTIVE</B><br><br>
+
+TO WORK IN A BIG MNC LIKE AMAZON OR GOOGLE<br><br>
+
+<B>ACHIEVEMENTS</B>
+
+<UL><LI>SCORED 81 PERCENTILE IN JEE MAINS</LI> <LI>COMPLETED THE TRAINING OF SCOUTS AND GUIDES</LI> 
+
+<LI>SECURED 100% SCHOLARSHIP FOR 2 CONSECUTIVE YEARS FROM MANAV RACHNA INTERNATIONAL INSTITUTE OF RESEARCH AND STUDIES</LI></UL>
+
+<B>SKILLS</B>
+
+<UL><LI>C/C++</LI> <LI>SQL</LI> <LI>HTML</LI> <LI>GITBASH</LI></UL></p>
+
+</div>
+
+</BODY>
+
+</HTML>
